@@ -1,0 +1,29 @@
+ [
+    {
+      "id": "1",
+      "affiliate": "Jim Shorts",
+      "recentReferral": "25 November 2022",
+      "revenueGen": "+356.05",
+      "paidOut": "$0.00",
+      "unPaid": "$0.00",
+      "readyPay": "$3.50",
+      "breakdown": "View ->", 
+      "type:": "store credit", 
+      "actions": "Send"
+    },
+    {
+        "id": "2",
+        "affiliate": "Mr. Big",
+        "recentReferral": "25 November 2022",
+        "revenueGen": "+356.05",
+        "paidOut": "$0.00",
+        "unPaid": "$0.00",
+        "readyPay": "$2.56",
+        "breakdown": "View ->", 
+        "type:": "cash", 
+        "actions": "nope"
+      }
+    
+    ]
+
+  
