@@ -42,7 +42,7 @@ export default function Home(props) {
                   </div>
                 </div>
               </div>
-              <div className="flex p-4 hover:scale-105 ">
+              <div className="flex p-8 hover:scale-105 ">
                 <div className="items-center p-4 bg-white rounded-lg shadow-md shadow-indigo-50">
                   <div>
                     <h2 className="inline-flex font-bold text-gray-900 text-md">
@@ -66,7 +66,7 @@ export default function Home(props) {
                   </div>
                 </div>
               </div>
-              <div className="flex w-full p-4 duration-500 sm:w-1/2 lg:w-1/3 hover:scale-105">
+              <div className="flex w-full p-8 duration-500 sm:w-1/2 lg:w-1/3 hover:scale-105">
                 <div className="items-center p-4 bg-white rounded-lg shadow-md shadow-indigo-50">
                   <div>
                     <h2 className="inline-flex font-bold text-gray-900 text-md">
@@ -102,7 +102,7 @@ export default function Home(props) {
                 <div className="flex p-4">
                   <button>
                     <select
-                      className="justify-center text-sm text-white bg-blue-500 rounded-sm"
+                      className="text-sm text-white bg-blue-500 rounded-sm "
                       id="filter-by"
                       placeholder="Filter"
                     >
@@ -117,40 +117,30 @@ export default function Home(props) {
                   </button>
                 </div>
                 <div className="flex p-4">
-                  <button>
-                    <select
-                      className="justify-end text-sm text-white bg-blue-500 rounded-sm "
-                      id="filter-by"
-                      placeholder="Filter"
-                    >
-                      <option value="">Filter by</option>
-                      <option value="Revenue Generated">
-                        Revenue Generated
-                      </option>
-                      <option value="Most Recent Referral">
-                        Most Recent Referral
-                      </option>
-                    </select>
-                  </button>
+                  <select
+                    className="text-sm text-white bg-blue-500 rounded-sm "
+                    id="filter-by"
+                  >
+                    <option value="">Filter by</option>
+                    <option value="Revenue Generated">Revenue Generated</option>
+                    <option value="Most Recent Referral">
+                      Most Recent Referral
+                    </option>
+                  </select>
                 </div>
-                <div className="flex p-4">
-                  <button>
-                    <select
-                      className="justify-end text-sm text-white bg-gray-500 rounded-sm input input-select"
-                      id="filter-by"
-                      disabled
-                      placeholder="Filter"
-                    >
-                      <option value="">Action</option>
-                      <option value="Revenue Generated">
-                        Revenue Generated
-                      </option>
-                      <option value="Most Recent Referral">
-                        Most Recent Referral
-                      </option>
-                    </select>
-                  </button>
-                </div>
+                <button className="flex p-4">
+                  <select
+                    className="justify-end text-sm text-white bg-gray-500 rounded-sm input input-select"
+                    id="filter-by"
+                    disabled
+                  >
+                    <option value="">Action</option>
+                    <option value="Revenue Generated">Revenue Generated</option>
+                    <option value="Most Recent Referral">
+                      Most Recent Referral
+                    </option>
+                  </select>
+                </button>
               </div>
               <table className="w-full table-auto">
                 <thead className="text-xs font-semibold text-gray-400 uppercase bg-gray-50">

@@ -8,7 +8,7 @@
       "unPaid": "$0.00",
       "readyPay": "$3.50",
       "breakdown": "View ->", 
-      "type:": "store credit", 
+      "type": "Store credit", 
       "actions": "Send"
     },
     {
@@ -20,7 +20,7 @@
         "unPaid": "$0.00",
         "readyPay": "$2.56",
         "breakdown": "View ->", 
-        "type:": "cash", 
+        "type": "Cash", 
         "actions": "nope"
       }
     
